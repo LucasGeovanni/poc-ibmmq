@@ -1,0 +1,14 @@
+server:
+  port: 9999
+  
+spring:
+  application:
+    name: poc-ibmmq  
+
+ibm:
+  mq: 
+    queueManager: QM1
+    channel: DEV.ADMIN.SVRCONN
+    connName: localhost(1414)
+    user: admin
+    password: passw0rd
